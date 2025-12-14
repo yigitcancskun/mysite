@@ -9,17 +9,15 @@ export const site = {
     kaggle: "https://www.kaggle.com/yiitcancokun",
   },
   about: [
-    "Python ile ML & Data Science & GenAI hakkında projeler üretiyorum.",
-    "Hedefim: üretimde çalışan sistemler (pipeline, model, agent) kurmak.",
-    "Burada yaptıklarımı net sonuçlarıyla paylaşıyorum.",
+    "İstatistik 3. sınıf öğrencisi & Yapay Zeka Geliştiricisi. ",
+    "Veri analizi temelleri üzerine Machine Learning ve GenAI yetkinlikleri inşa ediyorum. ",
+    "Teoriyi pratiğe dökmeyi severim; şu sıralar LangChain ve Otonom Ajanlar üzerine yoğunlaşıyorum.",
   ],
   currentlyWorking: {
     title: "Bugünlerde Ne Yapıyorum?",
     items: [
-      "🤖 LangChain ve AI Agent mimarileri üzerine çalışıyorum",
-      "📊 Kaggle yarışmalarında model optimizasyonu yapıyorum",
-      "🎓 İstatistik ve makine öğrenmesi temellerimi güçlendiriyorum",
-      "💡 Yeni proje fikirleri üzerinde araştırma yapıyorum"
+      { text: "🤖 LangChain ve AI Agent mimarileri üzerine çalışıyorum - otonom sistemler, RAG uygulamaları ve multi-agent workflows geliştiriyorum", link: "https://github.com/yigitcancskun/advanced-rag-agent" },
+      { text: "📊 Matplotlib-Journey kursu ile veri görselleştirme yeteneklerimi geliştiriyorum - interaktif grafikler ve dashboard'lar oluşturuyorum", link: "https://www.matplotlib-journey.com/" }
     ]
   },
   skills: ["Python", "Numpy", "Pandas", "Scikit-learn", "Matplotlib", "Seaborn", "Git", "SQL", "Langchain", "OOP"
