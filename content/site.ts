@@ -61,7 +61,26 @@ export const site = {
       { text: "📊 Matplotlib-Journey kursu ile veri görselleştirme yeteneklerimi geliştiriyorum - interaktif grafikler ve dashboard'lar oluşturuyorum", link: "https://www.matplotlib-journey.com/" }
     ]
   },
-  skills: ["Python", "Numpy", "Pandas", "Scikit-learn", "Matplotlib", "Seaborn", "Git", "SQL", "Langchain", "OOP"
+  skills: [
+    {
+      name: "Excel",
+      icon: "📊",
+      description: "Excel yolculuğum, fitness yaptığım dönemde günlük kalori ve makro takibimi yönetmek için oluşturduğum kişisel tablolarla başladı. Bu pratik, Freelance CS2 Veri Analistliği dönemimde profesyonel bir boyuta taşındı; maç verilerini toplayıp analiz ettiğim kapsamlı veritabanları oluştururken Excel yetkinliğimi YouTube kaynaklarıyla destekleyerek ileri seviyeye taşıdım."
+    },
+    {
+      name: "Data Science Stack",
+      icon: "🧪",
+      description: "Veri bilimi yolculuğum, YTÜ İstatistik bölümünde aldığım akademik kodlama eğitimi ve 'Python ile İstatistiksel Uygulamalar' dersleriyle başladı. BTK Akademi ve Kaggle çalışmalarıyla Python ekosistemindeki (Numpy, Pandas, Matplotlib) yetkinliğimi derinleştirdim. Veritabanı yönetimi konusunda yine okulda aldığım kapsamlı SQL eğitimi ile ilişkisel veritabanlarını yönetebiliyor, SPSS ile de akademik düzeyde ileri istatistiksel analizler gerçekleştirebiliyorum.",
+      sections: [
+        { title: "Python & Libraries", items: ["Numpy", "Pandas", "Scikit-learn", "Matplotlib", "Seaborn"] },
+        { title: "Database & Statistics", items: ["SQL", "SPSS"] }
+      ]
+    },
+    {
+      name: "GenAI",
+      icon: "🤖",
+      description: "Geleceğin teknolojisi olarak gördüğüm bu alanda, Atıl Samancıoğlu'nun 'Langchain, RAG, LLM Orkestrasyonu' eğitimiyle güçlü bir başlangıç yaptım. Bu eğitimi, Techstars Startup Weekend 2025'te geliştirdiğimiz 'Overtime' projesindeki otonom ajan mimarisiyle pratiğe döktüm. LangChain ve LangGraph kullanarak, karmaşık iş süreçlerini optimize eden ve kendi kendine karar alabilen yapay zeka sistemleri kurguluyorum."
+    }
   ],
   projects: [
     {

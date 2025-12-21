@@ -314,15 +314,52 @@ export default function Home() {
         {/* Skills Section */}
         <section className="fade-in-up fade-in-up-delay-3">
           <h2 className="section-title">Yetenekler</h2>
-          <div className="flex flex-wrap gap-3">
-            {site.skills.map((skill, index) => (
-              <span 
-                key={skill} 
-                className="skill-badge"
-                style={{ animationDelay: `${index * 0.05}s` }}
+          <div className="grid grid-cols-1 gap-6">
+            {site.skills.map((skill: any, index: number) => (
+              <div 
+                key={skill.name} 
+                className="glass-card p-8 transition-all hover:scale-[1.01]"
+                style={{ animationDelay: `${index * 0.1}s` }}
               >
-                {skill}
-              </span>
+                <div className="flex flex-col md:flex-row gap-6">
+                  <div className="flex-shrink-0 flex items-start">
+                    <span className="text-5xl">{skill.icon}</span>
+                  </div>
+                  <div className="flex-grow">
+                    <h3 className="text-2xl font-bold gradient-text mb-4">{skill.name}</h3>
+                    <p className="text-base leading-relaxed mb-6" style={{ color: 'var(--muted)' }}>
+                      {skill.description}
+                    </p>
+                    
+                    {skill.sections ? (
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-4 border-t border-white/10">
+                        {skill.sections.map((section: any) => (
+                          <div key={section.title}>
+                            <h4 className="text-sm font-semibold mb-3" style={{ color: 'var(--foreground)' }}>
+                              {section.title}
+                            </h4>
+                            <div className="flex flex-wrap gap-2">
+                              {section.items.map((item: string) => (
+                                <span key={item} className="text-xs font-medium px-3 py-1.5 rounded-lg" style={{ background: 'rgba(139, 92, 246, 0.1)', color: 'var(--accent)', border: '1px solid rgba(139, 92, 246, 0.2)' }}>
+                                  {item}
+                                </span>
+                              ))}
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    ) : skill.subSkills && (
+                      <div className="flex flex-wrap gap-2 pt-4 border-t border-white/10">
+                        {skill.subSkills.map((sub: string) => (
+                          <span key={sub} className="text-xs font-medium px-2 py-1 rounded" style={{ background: 'rgba(139, 92, 246, 0.1)', color: 'var(--accent)' }}>
+                            {sub}
+                          </span>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                </div>
+              </div>
             ))}
           </div>
         </section>
