@@ -1,6 +1,6 @@
 export const site = {
   name: "Yiğitcan Coşkun",
-  title: "ML / Data Science / GenAI",
+  title: "MLOps Engineer title'ına ulaşmayı hedefliyorum.",
   tagline: "Statistics BSc. @ Yıldız Teknik Üniversitesi",
   location: "Turkey",
   links: {
@@ -11,7 +11,6 @@ export const site = {
   about: [
     "İstatistik 3. sınıf öğrencisi & Yapay Zeka Geliştiricisi. ",
     "Veri analizi temelleri üzerine Machine Learning ve GenAI yetkinlikleri inşa ediyorum. ",
-    "Teoriyi pratiğe dökmeyi severim; şu sıralar LangChain ve Otonom Ajanlar üzerine yoğunlaşıyorum.",
   ],
   aboutTimeline: [
     {
@@ -55,31 +54,94 @@ export const site = {
     link: "https://ist.yildiz.edu.tr/"
   },
   currentlyWorking: {
-    title: "Bugünlerde Ne Yapıyorum?",
+    title: "Şu An Neler Oluyor?",
     items: [
-      { text: "🤖 LangChain ve AI Agent mimarileri üzerine çalışıyorum - otonom sistemler, RAG uygulamaları ve multi-agent workflows geliştiriyorum", link: "https://github.com/yigitcancskun/advanced-rag-agent" },
-      { text: "📊 Matplotlib-Journey kursu ile veri görselleştirme yeteneklerimi geliştiriyorum - interaktif grafikler ve dashboard'lar oluşturuyorum", link: "https://www.matplotlib-journey.com/" }
+      { 
+        text: "🎓 Milli Teknoloji Akademisi - Yapay Zeka Uzmanlığı Programı'na kabul aldım!", 
+        link: "https://www.milliteknoloji.gov.tr/"
+      },
+      { 
+        text: "👁️ Görüntü İşleme üzerine çalışıyorum - OpenCV ve YOLO ile nesne tespiti öğreniyorum", 
+        link: ""
+      }
     ]
   },
+  mtaProgram: {
+    title: "Milli Teknoloji Akademisi - Yapay Zeka Uzmanlığı",
+    description: "Türkiye'nin Milli Teknoloji Hamlesi kapsamında, BAYKAR, TÜBİTAK, HAVELSAN, HUAWEI gibi öncü teknoloji firmalarının katkılarıyla hazırlanan kapsamlı bir eğitim programı.",
+    highlights: [
+      "İleri Seviye Python & Veri Yoğun Uygulamalar",
+      "Bulut Sistemler & Paralel Programlama", 
+      "GPU ile Paralel Programlama",
+      "Gerçek Zamanlı Veri İşleme & Model Geliştirme",
+      "Sektör Profesyonellerinden Mentorluk",
+      "Bitirme Projesi & Staj İmkanı"
+    ]
+  },
+  experience: [
+    {
+      company: "Otokoç Otomotiv",
+      role: "Data Analytics Intern",
+      period: "2026 - Devam Ediyor",
+      description: "Technology Solutions departmanında, ölçeklenebilir veri çözümleri geliştirme sürecine katkı sağlıyorum.",
+      highlights: [
+        "Python, SQL ve Microsoft Azure ile veri iş akışlarını optimize ediyorum",
+        "Karar destek süreçlerini veri odaklı yaklaşımlarla güçlendiriyorum",
+        "Power BI ile operasyonel KPI'ları görselleştiren interaktif dashboard'lar oluşturuyorum"
+      ],
+      tech: ["Python", "Azure SQL", "Power BI", "Microsoft Azure"]
+    },
+    {
+      company: "lastikacilyardim.com",
+      role: "Freelance Web Developer & Digital Marketing",
+      period: "2025 - 2026",
+      description: "Gelen iş teklifi üzerine sıfırdan web sitesi tasarladım ve geliştirdim. SEO optimizasyonu, analitik kurulumu ve dijital pazarlama süreçlerini yönetiyorum.",
+      highlights: [
+        "Sıfırdan responsive web sitesi oluşturdum",
+        "SEO iyileştirmeleri ve teknik analizler yaptım",
+        "Google Analytics entegrasyonu ve performans takibi",
+        "Google Ads reklam kampanyalarını yönetiyorum"
+      ],
+      tech: ["HTML/CSS", "JavaScript", "SEO", "Google Analytics", "Google Ads"],
+      link: "https://lastikacilyardim.com"
+    }
+  ],
   skills: [
-    {
-      name: "Excel",
-      icon: "📊",
-      description: "Excel yolculuğum, fitness yaptığım dönemde günlük kalori ve makro takibimi yönetmek için oluşturduğum kişisel tablolarla başladı. Bu pratik, Freelance CS2 Veri Analistliği dönemimde profesyonel bir boyuta taşındı; maç verilerini toplayıp analiz ettiğim kapsamlı veritabanları oluştururken Excel yetkinliğimi YouTube kaynaklarıyla destekleyerek ileri seviyeye taşıdım."
-    },
-    {
-      name: "Data Science Stack",
-      icon: "🧪",
-      description: "Veri bilimi yolculuğum, YTÜ İstatistik bölümünde aldığım akademik kodlama eğitimi ve 'Python ile İstatistiksel Uygulamalar' dersleriyle başladı. BTK Akademi ve Kaggle çalışmalarıyla Python ekosistemindeki (Numpy, Pandas, Matplotlib) yetkinliğimi derinleştirdim. Veritabanı yönetimi konusunda yine okulda aldığım kapsamlı SQL eğitimi ile ilişkisel veritabanlarını yönetebiliyor, SPSS ile de akademik düzeyde ileri istatistiksel analizler gerçekleştirebiliyorum.",
-      sections: [
-        { title: "Python & Libraries", items: ["Numpy", "Pandas", "Scikit-learn", "Matplotlib", "Seaborn"] },
-        { title: "Database & Statistics", items: ["SQL", "SPSS"] }
-      ]
-    },
     {
       name: "GenAI",
       icon: "🤖",
-      description: "Geleceğin teknolojisi olarak gördüğüm bu alanda, Atıl Samancıoğlu'nun 'Langchain, RAG, LLM Orkestrasyonu' eğitimiyle güçlü bir başlangıç yaptım. Bu eğitimi, Techstars Startup Weekend 2025'te geliştirdiğimiz 'Overtime' projesindeki otonom ajan mimarisiyle pratiğe döktüm. LangChain ve LangGraph kullanarak, karmaşık iş süreçlerini optimize eden ve kendi kendine karar alabilen yapay zeka sistemleri kurguluyorum."
+      description: "Yapay zeka ajanları ve büyük dil modelleri üzerine uzmanlaşıyorum. LangChain ve LangGraph kullanarak otonom sistemler, RAG (Retrieval-Augmented Generation) uygulamaları ve multi-agent workflows geliştiriyorum.",
+      sections: [
+        { title: "Frameworks", items: ["LangChain", "LangGraph", "CrewAI"] },
+        { title: "Concepts", items: ["AI Agent Architectures", "RAG", "Vector Databases", "Prompt Engineering"] }
+      ]
+    },
+    {
+      name: "Programming",
+      icon: "💻",
+      description: "Veri bilimi ve yapay zeka projelerimde Python'ı ana dilim olarak kullanıyorum. İstatistik bölümündeki akademik çalışmalarımda R ile de deneyim kazandım.",
+      sections: [
+        { title: "Primary", items: ["Python"] },
+        { title: "Secondary", items: ["R", "SQL"] }
+      ]
+    },
+    {
+      name: "Data Science & ML",
+      icon: "📊",
+      description: "YTÜ İstatistik bölümündeki eğitimim ve Kaggle çalışmalarımla veri bilimi yetkinliklerimi geliştirdim. Makine öğrenmesi modelleri geliştiriyor ve veri görselleştirme araçlarıyla anlamlı içgörüler oluşturuyorum.",
+      sections: [
+        { title: "ML & Analysis", items: ["Scikit-learn", "Pandas", "NumPy", "Feature Engineering"] },
+        { title: "Visualization", items: ["Matplotlib", "Seaborn", "Power BI"] }
+      ]
+    },
+    {
+      name: "Database",
+      icon: "🗄️",
+      description: "Veritabanı yönetimi konusunda SQL ile ilişkisel veritabanlarını yönetebiliyor, vektör veritabanları ile de RAG uygulamaları için semantik arama sistemleri kurabiliyorum.",
+      sections: [
+        { title: "Relational", items: ["SQL", "Azure SQL", "PostgreSQL"] },
+        { title: "Vector & NoSQL", items: ["Pinecone", "ChromaDB", "DynamoDB"] }
+      ]
     }
   ],
   projects: [
@@ -128,6 +190,21 @@ export const site = {
         kaggle: "https://www.kaggle.com/yiitcancokun/code",
       },
       highlights: ["Data Preprocessing", "EDA", "Feature Engineering", "Modeling"],
+    },
+    {
+      name: "AWS SQS + SNS Notification System",
+      period: "Vibe Coding ile yapıldı",
+      description: "AWS servislerini kullanarak Producer-Consumer pattern'i ile asenkron bildirim sistemi geliştirdim. Microservices mimarisinin temel taşlarından biri olan bu pattern, gerçek dünya uygulamalarında e-ticaret'ten IoT'ye kadar yaygın olarak kullanılıyor.",
+      tech: ["AWS Lambda", "SQS", "SNS", "API Gateway", "DynamoDB", "Python"],
+      links: {
+        github: "https://github.com/yigitcancskun/aws-zero-to-yeto/tree/main/examples/sqs-sns-notification",
+        demo: "",
+      },
+      highlights: [
+        "Serverless mimari ile tamamen Free Tier içinde deploy",
+        "Dead Letter Queue ve otomatik retry mekanizması",
+        "RESTful API ile email/SMS bildirimi gönderimi"
+      ],
     },
   ],
 };
