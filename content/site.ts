@@ -108,7 +108,7 @@ export const site = {
       icon: "🤖",
       description: "Yapay zeka ajanları ve büyük dil modelleri üzerine uzmanlaşıyorum. LangChain ve LangGraph kullanarak otonom sistemler, RAG (Retrieval-Augmented Generation) uygulamaları ve multi-agent workflows geliştiriyorum.",
       sections: [
-        { title: "Frameworks", items: ["LangChain", "LangGraph", "CrewAI"] },
+        { title: "Frameworks", items: ["LangChain", "LangGraph"] },
         { title: "Concepts", items: ["AI Agent Architectures", "RAG", "Vector Databases", "Prompt Engineering"] }
       ]
     },
