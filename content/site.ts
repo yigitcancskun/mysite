@@ -129,15 +129,6 @@ export const site = {
         { title: "ML & Analysis", items: ["Scikit-learn", "Pandas", "NumPy", "Feature Engineering"] },
         { title: "Visualization", items: ["Matplotlib", "Seaborn", "Power BI"] }
       ]
-    },
-    {
-      name: "Database",
-      icon: "🗄️",
-      description: "Veritabanı yönetimi konusunda SQL ile ilişkisel veritabanlarını yönetebiliyor, vektör veritabanları ile de RAG uygulamaları için semantik arama sistemleri kurabiliyorum.",
-      sections: [
-        { title: "Relational", items: ["SQL", "Azure SQL", "PostgreSQL"] },
-        { title: "Vector & NoSQL", items: ["Pinecone", "ChromaDB", "DynamoDB"] }
-      ]
     }
   ],
   projects: [
