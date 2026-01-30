@@ -1,6 +1,6 @@
 export const site = {
   name: "Yiğitcan Coşkun",
-  title: "MLOps Engineer title'ına ulaşmayı hedefliyorum.",
+  title: "Aspiring ML Engineer",
   tagline: "Statistics BSc. @ Yıldız Teknik Üniversitesi",
   location: "Turkey",
   links: {
@@ -49,7 +49,7 @@ export const site = {
     department: "İstatistik",
     degree: "Lisans",
     year: "3. Sınıf",
-    gpa: "3.17",
+    gpa: "3.11",
     logo: "/ytu-logo.png",
     link: "https://ist.yildiz.edu.tr/"
   },
@@ -59,10 +59,6 @@ export const site = {
       { 
         text: "🎓 Milli Teknoloji Akademisi - Yapay Zeka Uzmanlığı Programı'na kabul aldım!", 
         link: "https://www.milliteknoloji.gov.tr/"
-      },
-      { 
-        text: "👁️ Görüntü İşleme üzerine çalışıyorum - OpenCV ve YOLO ile nesne tespiti öğreniyorum", 
-        link: ""
       }
     ]
   },
@@ -190,21 +186,6 @@ export const site = {
         kaggle: "https://www.kaggle.com/yiitcancokun/code",
       },
       highlights: ["Data Preprocessing", "EDA", "Feature Engineering", "Modeling"],
-    },
-    {
-      name: "AWS SQS + SNS Notification System",
-      period: "Vibe Coding ile yapıldı",
-      description: "AWS servislerini kullanarak Producer-Consumer pattern'i ile asenkron bildirim sistemi geliştirdim. Microservices mimarisinin temel taşlarından biri olan bu pattern, gerçek dünya uygulamalarında e-ticaret'ten IoT'ye kadar yaygın olarak kullanılıyor.",
-      tech: ["AWS Lambda", "SQS", "SNS", "API Gateway", "DynamoDB", "Python"],
-      links: {
-        github: "https://github.com/yigitcancskun/aws-zero-to-yeto/tree/main/examples/sqs-sns-notification",
-        demo: "",
-      },
-      highlights: [
-        "Serverless mimari ile tamamen Free Tier içinde deploy",
-        "Dead Letter Queue ve otomatik retry mekanizması",
-        "RESTful API ile email/SMS bildirimi gönderimi"
-      ],
-    },
-  ],
-};
+    }
+  ]
+}
